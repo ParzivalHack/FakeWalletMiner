@@ -36,4 +36,3 @@ else
 echo "wrong"
 exit
 fi
-}
