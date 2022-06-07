@@ -33,48 +33,57 @@ echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.00 BTC"
 sleep 1
+echo -e " "
 echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.00 BTC"
 sleep 1
+echo -e " "
 echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.00 BTC"
 sleep 1
+echo -e " "
 echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.00 BTC"
 sleep 1
+echo -e " "
 echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.00 BTC"
 sleep 1
+echo -e " "
 echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.00 BTC"
 sleep 1
+echo -e " "
 echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.00 BTC"
 sleep 1
+echo -e " "
 echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.00 BTC"
 sleep 1
+echo -e " "
 echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.00 BTC"
 sleep 1
+echo -e "$green"
 echo -e "[+] Checking balance" 
-echo -e "$green" echo $RANDOM | md5sum | head -c 20;
+echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.03 BTC"
 done
