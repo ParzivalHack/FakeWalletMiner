@@ -26,45 +26,55 @@ if [ $optnz = "start" ];
 then
 for i in 'seq 10'
 do
-echo -e "[+]" 
+echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
+echo -e "0.00 BTC"
 sleep 1
-echo -e "[+]" 
+echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
+echo -e "0.00 BTC"
 sleep 1
-echo -e "[+]" 
+echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
+echo -e "0.00 BTC"
 sleep 1
-echo -e "[+]" 
+echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
+echo -e "0.00 BTC"
 sleep 1
-echo -e "[+]" 
+echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
+echo -e "0.00 BTC"
 sleep 1
-echo -e "[+]" 
+echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
+echo -e "0.00 BTC"
 sleep 1
-echo -e "[+]" 
+echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
+echo -e "0.00 BTC"
 sleep 1
-echo -e "[+]" 
+echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
+echo -e "0.00 BTC"
 sleep 1
-echo -e "[+]" 
+echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
+echo -e "0.00 BTC"
 sleep 1
-echo -e "[+]" 
+echo -e "[+] Checking balance" 
 echo $RANDOM | md5sum | head -c 20;
 echo;
+echo -e "0.00 BTC"
 done
 elif [ $optnz = "exit" ];
 then
