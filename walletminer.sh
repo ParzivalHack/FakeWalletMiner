@@ -74,7 +74,7 @@ echo;
 echo -e "0.00 BTC"
 sleep 1
 echo -e "[+] Checking balance" 
-$green
+echo -e "$green"
 echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.03 BTC"
