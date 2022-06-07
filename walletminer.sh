@@ -26,7 +26,44 @@ if [ $optnz = "start" ];
 then
 for i in 'seq 10'
 do
-echo -e "[+]" $RANDOM | md5sum | head -c 20;
+echo -e "[+]" 
+echo $RANDOM | md5sum | head -c 20;
+echo;
+sleep 1
+echo -e "[+]" 
+echo $RANDOM | md5sum | head -c 20;
+echo;
+sleep 1
+echo -e "[+]" 
+echo $RANDOM | md5sum | head -c 20;
+echo;
+sleep 1
+echo -e "[+]" 
+echo $RANDOM | md5sum | head -c 20;
+echo;
+sleep 1
+echo -e "[+]" 
+echo $RANDOM | md5sum | head -c 20;
+echo;
+sleep 1
+echo -e "[+]" 
+echo $RANDOM | md5sum | head -c 20;
+echo;
+sleep 1
+echo -e "[+]" 
+echo $RANDOM | md5sum | head -c 20;
+echo;
+sleep 1
+echo -e "[+]" 
+echo $RANDOM | md5sum | head -c 20;
+echo;
+sleep 1
+echo -e "[+]" 
+echo $RANDOM | md5sum | head -c 20;
+echo;
+sleep 1
+echo -e "[+]" 
+echo $RANDOM | md5sum | head -c 20;
 echo;
 done
 elif [ $optnz = "exit" ];
