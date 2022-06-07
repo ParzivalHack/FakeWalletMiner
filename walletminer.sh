@@ -26,4 +26,4 @@ for i in 'seq 10'
 do
 echo $red $RANDOM | md5sum | head -c 20;
 echo;
-
+}
