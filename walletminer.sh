@@ -20,13 +20,13 @@ echo -e "
 "
 }
 banner
-echo -ne "#Type start to start the script or exit to exit the tool: "
+echo -ne "$red#Type start to start the script or exit to exit the tool: "
 read optnz
 if [ $optnz = "start" ];
 then
 for i in 'seq 10'
 do
-echo $red $RANDOM | md5sum | head -c 20;
+watch -n 2 echo $RANDOM | md5sum | head -c 20;
 echo;
 done
 elif [ $optnz = "exit" ];
