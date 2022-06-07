@@ -19,6 +19,7 @@ echo -e "
 :::::::::::::::::::::::::::::::::::::........::::........::::........:::::::::::::::::::::::::::::::::::::::::::::
 "
 }
+banner
 echo -ne "#Type start to start the script or exit to exit the tool: "
 read optnz
 if [ $optnz = "start" ];
@@ -28,3 +29,11 @@ do
 echo $red $RANDOM | md5sum | head -c 20;
 echo;
 done
+elif [ $optnz = "exit" ];
+then
+exit 1
+else
+echo "wrong"
+exit
+fi
+}
