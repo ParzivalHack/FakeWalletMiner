@@ -1,3 +1,4 @@
+green="\e[32m"
 red="\e[91m"
 banner(){
 echo -e "
@@ -72,10 +73,12 @@ echo;
 echo -e "0.00 BTC"
 sleep 1
 echo -e "[+] Checking balance" 
+$green
 echo $RANDOM | md5sum | head -c 20;
 echo;
-echo -e "0.00 BTC"
+echo -e "0.03 BTC"
 done
+echo -e "Transferring funds to your wallet..."
 elif [ $optnz = "exit" ];
 then
 exit 1
