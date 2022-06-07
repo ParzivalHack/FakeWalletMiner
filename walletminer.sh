@@ -26,7 +26,7 @@ if [ $optnz = "start" ];
 then
 for i in 'seq 10'
 do
-watch -n 2 echo $RANDOM | md5sum | head -c 20;
+echo -e "[+]" $RANDOM | md5sum | head -c 20;
 echo;
 done
 elif [ $optnz = "exit" ];
