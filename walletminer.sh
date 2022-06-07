@@ -79,7 +79,7 @@ echo $RANDOM | md5sum | head -c 20;
 echo;
 echo -e "0.03 BTC"
 done
-echo -e "Transferring funds to your wallet..."
+echo -e "$blue Transferring funds to your wallet..."
 elif [ $optnz = "exit" ];
 then
 exit 1
