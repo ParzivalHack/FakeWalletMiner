@@ -21,61 +21,61 @@ then
 for i in 'seq 10'
 do
 echo -e "[+] Checking balance" 
-echo $RANDOM | md5sum | head -c 20;
+echo $RANDOM | md5sum | head -c 32;
 echo;
 echo -e "0.00 BTC"
 sleep 1
 echo -e " "
 echo -e "[+] Checking balance" 
-echo $RANDOM | md5sum | head -c 20;
+echo $RANDOM | md5sum | head -c 32;
 echo;
 echo -e "0.00 BTC"
 sleep 1
 echo -e " "
 echo -e "[+] Checking balance" 
-echo $RANDOM | md5sum | head -c 20;
+echo $RANDOM | md5sum | head -c 32;
 echo;
 echo -e "0.00 BTC"
 sleep 1
 echo -e " "
 echo -e "[+] Checking balance" 
-echo $RANDOM | md5sum | head -c 20;
+echo $RANDOM | md5sum | head -c 32;
 echo;
 echo -e "0.00 BTC"
 sleep 1
 echo -e " "
 echo -e "[+] Checking balance" 
-echo $RANDOM | md5sum | head -c 20;
+echo $RANDOM | md5sum | head -c 32;
 echo;
 echo -e "0.00 BTC"
 sleep 1
 echo -e " "
 echo -e "[+] Checking balance" 
-echo $RANDOM | md5sum | head -c 20;
+echo $RANDOM | md5sum | head -c 32;
 echo;
 echo -e "0.00 BTC"
 sleep 1
 echo -e " "
 echo -e "[+] Checking balance" 
-echo $RANDOM | md5sum | head -c 20;
+echo $RANDOM | md5sum | head -c 32;
 echo;
 echo -e "0.00 BTC"
 sleep 1
 echo -e " "
 echo -e "[+] Checking balance" 
-echo $RANDOM | md5sum | head -c 20;
+echo $RANDOM | md5sum | head -c 32;
 echo;
 echo -e "0.00 BTC"
 sleep 1
 echo -e " "
 echo -e "[+] Checking balance" 
-echo $RANDOM | md5sum | head -c 20;
+echo $RANDOM | md5sum | head -c 32;
 echo;
 echo -e "0.00 BTC"
 sleep 1
 echo -e "$green"
 echo -e "[+] Wallet found!" 
-echo $RANDOM | md5sum | head -c 20;
+echo $RANDOM | md5sum | head -c 32;
 echo;
 echo -e "0.03 BTC"
 done
